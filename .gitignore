@@ -1,0 +1,23 @@
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# macOS Finder
+.AppleDouble
+.LSOverride
+Icon?
+
+# macOS Thumbnails
+._*
+
+# macOS Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
