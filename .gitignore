@@ -21,3 +21,6 @@ Icon?
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# ignore the project folder (it is in a separate repo)
+project/
