@@ -1,0 +1,19 @@
+Do zrobienia część zadań z dwóch notebooków: ​
+Notebook lime_shap_tabular - część I (tylko LIME, bez SHAPA!). W zadaniu domowym proszę wykorzystać MLPClassifier z biblioteki sklearn. Zadbaj, żeby jakość predykcji była przynajmniej akceptowalna – najlepiej nie mniej niż 0.8.​
+Notebook lime_images - wybierz własny (inny niż amfibia) obraz z dowolnej klasy rozpoznawanej przez sieć. Wykorzystaj obraz spoza zbioru ImageNet, na którym trenowana była sieć. Wykonaj zadania 1 i 2, używając dwóch dowolnych pretrenowanych
+sieci neuronowych - jedną z nich może być wykorzystana w tutorialu sieć Inception.​
+Raport proszę przygotować w formie tekstowej i zamieścić PDF, raportem nie jest uzupełniony notebook - proszę zrobić "tradycyjny" raport ze wszystkimi koniecznymi wnioskami i wykresami (!). Proszę pisać krótkie i samodzielne komentarze. Oczekiwana długość raportu: max 2 strony A4, może być nieco dłuższy, jeśli będzie to konieczne ze względu na obrazki/wykresy.​
+Raporty przyjmuję do dwóch tygodni od terminu zajęć (7.11), po terminie zadania (wtorek 23:59) wynik mnożony jest przez 0.7, po dwóch tygodniach nie przyjmuję już zadań. Przypominam, że w celu zaliczenia przedmiotu trzeba zaliczyć każde laboratorium, tj. uzyskać min. 50% punktów. UWAGA: nie przewiduję na koniec semestru sprawdzania zadań osób, które nie zaliczyły wcześniej laboratorium!​
+Proszę umieścić na Teamsie raport w pdf oraz uzupełniony notebook. Ocenie podlega wyłącznie raport, notebook może (nie musi) być weryfikowany w przypadku wątpliwości.​
+W obu częściach powinny się Państwu wyświetlać obrazki, gdyby coś nie działało - proszę zmienić przeglądarkę. W zeszłym roku był problem z wyświetlaniem w VS.
+Na niektórych platformach (jedna osoba zgłosiła problem na colabie) następował inny podział na dane treningowe i testowe niż w przygotowanym notebooku, pomimo pozostawienia tego samego ustawienia seeda. Co zrobić?
+Zmienić platformę... lub
+Znaleźć w zbiorze testowym podobne przykłady do tych analizowanych w notebooku, lub
+Wyciągać dane ze zbioru "data", który u każdego wczytuje się tak samo, a nie ze zbioru testowego. Indeksy wybranych przykładów względem zbiorów: testowy w notebooku -> data:
+1653 -> 31216
+92 -> 6508
+18 -> 21145
+Jako, że zbiory podzieliły się inaczej na treningowy i testowy niż w dostarczonym notebooku, te przykłady mogą być tłumaczone przez LIME'a inaczej, ale warto sprawdzić tę opcję.
+Jak wszystko zawiedzie to analizować te przykłady, które się załadowały. Mogą być mniej ciekawe niż te wybrane :( więc niech to będzie faktycznie ostateczna opcja.
+Jeśli komuś wyrzuca błąd związany z importem IPython.core.display, należy wejść w zainstalowanego lime w plik wskazany w błędzie i zmienić import na from IPython.display (wyrzucić core).
+Opis zadania w sekcji Pliki.
