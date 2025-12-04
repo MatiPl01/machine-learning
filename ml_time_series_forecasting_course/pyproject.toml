@@ -1,0 +1,19 @@
+[project]
+name = "ml-time-series-forecasting-course-solutions"
+version = "0.1.0"
+description = ""
+authors = [{ name = "j-adamczyk", email = "jadamczy@agh.edu.pl" }]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+
+dependencies = [
+    "jupyter",
+    "matplotlib",
+    # "neuralforecast",
+    "pmdarima",
+    "pyarrow",
+    "scikit-learn",
+    "seaborn",
+    "sktime",
+    "statsforecast",
+]
