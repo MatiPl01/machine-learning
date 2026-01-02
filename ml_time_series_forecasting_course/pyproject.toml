@@ -9,11 +9,15 @@ requires-python = ">=3.11,<3.13"
 dependencies = [
     "jupyter",
     "matplotlib",
-    # "neuralforecast",
+    "neuralforecast",
     "pmdarima",
     "pyarrow",
     "scikit-learn",
     "seaborn",
     "sktime",
     "statsforecast",
+    "timesfm",
+    "transformers",
+    "accelerate",
+    "utilsforecast",
 ]
